@@ -18,7 +18,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { Tangerine } from "next/font/google";
 import confetti from "canvas-confetti";
-import YouTubePlayer from "./components/youtube";
 
 const tangerine = Tangerine({
   weight: ["400", "700"],
@@ -606,51 +605,6 @@ export default function Home() {
           </Box>
         </Flex>
       </Box>
-
-      {/* Videos from well wishers */}
-      {/* <Box w={"100%"} py={10} className="aww-section">
-        <Flex
-          w={{ base: "95%", md: "90%", lg: "82%" }}
-          mx="auto"
-          flexDirection="column"
-          gap={{ base: 6, md: 8, lg: 10 }}
-          alignItems="center"
-          justifyContent="center"
-        >
-          <Box>
-            <Text
-              fontSize={{ base: "xl", md: "2xl" }}
-              fontWeight="bold"
-              textAlign="center"
-            >
-              Happy Birthday to you 💝
-            </Text>
-            <Text
-              fontSize={{ base: "lg", md: "xl" }}
-              fontWeight="bold"
-              textAlign="center"
-              color="#ffed59"
-            >
-              I guess i might tag this the AWWN section cause Awwwwwwwwwwwwwwwn.
-            </Text>
-          </Box>
-          <Flex
-            flexDirection={{ base: "column", md: "row" }}
-            gap={{ base: 4, md: 6 }}
-            w="100%"
-            justifyContent="center"
-            alignItems="center"
-          >
-            
-            <Box
-              w={{ base: "100%", md: "48%" }}
-              h={{ base: "300px", sm: "400px", md: "500px" }}
-            >
-              <YouTubePlayer />
-            </Box>
-          </Flex>
-        </Flex>
-      </Box> */}
 
       {/* Footer */}
       <Box w={"100%"} pb={10} pt={{ base: 48, sm: 10, md: 10 }}>

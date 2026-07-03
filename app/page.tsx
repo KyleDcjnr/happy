@@ -126,7 +126,6 @@ export default function Home() {
     { type: "video", src: "mama-vid/19.MP4" },
     { type: "video", src: "mama-vid/20.MP4" },
     { type: "video", src: "mama-vid/21.MP4" },
-    { type: "video", src: "mama-vid/22.MP4" },
     { type: "video", src: "mama-vid/27.MP4" },
     { type: "video", src: "mama-vid/28.mp4" },
     { type: "video", src: "mama-vid/29.mp4" },
